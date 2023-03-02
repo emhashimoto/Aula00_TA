@@ -1,0 +1,434 @@
+---
+title: "MA32A - Estatística"
+subtitle: "Apresentação da Disciplina &#9749;" 
+author: "Elizabeth Mie Hashimoto <br> DAMAT-LD"
+output:
+  xaringan::moon_reader:
+    css: [default, default-fonts, meu-tema-ta.css]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: false
+      countIncrementalSlides: false
+      slideNumberFormat: "%current%"
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(echo = FALSE, 
+                      comment = '',
+                      message = FALSE,
+                      warning = FALSE,
+                      cache = TRUE)
+```
+<style> 
+#caixa {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px blue;
+}
+div {
+  text-align: justify;
+  text-justify: inter-word;
+}
+</style>
+
+# Formação &#127891;
+
+&#10004; Bacharel em Estatística
+
+```{r , echo=FALSE, fig.align = 'center', out.width = '35%'}
+knitr::include_graphics('figuras/fct.jpg')
+```
+
+<br>
+
+--
+
+&#10004; Mestrado e Doutorado em Ciências
+
+```{r , echo=FALSE, fig.align = 'center', out.width = '45%'}
+knitr::include_graphics('figuras/esalq.jpg')
+```
+
+---
+
+# Universidades &#127979;
+
+&#10004; Unoeste
+
+```{r , echo=FALSE, fig.align = 'center', out.width = '25%'}
+knitr::include_graphics('figuras/logo_unoeste.jpg')
+```
+
+<br>
+
+&#10004; UEM
+
+```{r , echo=FALSE, fig.align = 'center', out.width = '25%'}
+knitr::include_graphics('figuras/logo_uem.jpg')
+```
+
+<br>
+
+&#10004; UTFPR
+
+```{r , echo=FALSE, fig.align = 'center', out.width = '25%'}
+knitr::include_graphics('figuras/utfpr.jpg')
+```
+
+---
+
+# Objetivo da disciplina &#127919;
+
+<div id="caixa">
+ <div>O objetivo é proporcionar aos alunos de Tecnologia em Alimentos uma introdução aos <font color="#0066cc">conceitos de estatística</font> utilizados na análise de dados, bem como o desenvolvimento da capacidade de <font color="#0066cc">interpretar os resultados</font> e estabelecer uma linguagem comum entre o Tecnólogo e o Estatístico.</div>
+</div>
+
+<br>
+
+.pull-left[
+Horário da Aula &#9200;
+]
+.pull-right[
+- Quinta-feira das 20:20--21:10
+
+- Sexta-feira das 20:30--23:00
+]
+
+<br>
+
+--
+
+.pull-left[
+Horário de Atendimento &#9200;
+]
+.pull-right[
+- Terça-feira das 20:20-21:10
+
+- Quarta-feira das 13:00-14:40
+
+- Sexta-feira das 9:10-10:00
+]
+
+---
+
+# Conteúdo Programático
+
+&#10004; Conceitos básicos de estatística descritiva
+
+```{r , echo=FALSE, fig.align = 'center', out.width = '40%'}
+knitr::include_graphics('figuras/fig2.jpg')
+```
+
+<br>
+
+--
+
+&#10004; Conceitos básicos Variável aleatória e modelos de distribuição de probabilidade.
+
+```{r , echo=FALSE, fig.align = 'center', out.width = '50%'}
+knitr::include_graphics('figuras/fig4.jpg')
+```
+
+---
+
+&#10004; Conceitos básicos de inferência estatística.
+
+```{r , echo=FALSE, fig.align = 'center', out.width = '50%'}
+knitr::include_graphics('figuras/fig5.jpg')
+```
+
+<br>
+
+--
+
+&#10004; Ajuste de curvas.
+
+```{r , echo=FALSE, fig.align = 'center', out.width = '40%'}
+set.seed(02032023)
+x <- rnorm(15,10,1)
+y <- 2+(5*x)+rnorm(15,0,1)
+df <- data.frame(x,y)
+library(ggplot2)
+df |> 
+  ggplot(aes(x = x,y = y)) +
+  geom_point(size = 3) +
+  geom_smooth(method = lm, se = FALSE, linewidth = 2)
+```
+
+---
+
+&#10004; Definição de análise e variância
+
+---
+
+# Bibliografia básica
+
+&#10004; BUSSAB, Wilton de Oliveira; MORETTIN, Pedro Alberto. **Estatística básica**. 5ed. São Paulo: Saraiva, 2004. 526 p.
+
+```{r , echo=FALSE, fig.align = 'center', out.width = '35%'}
+knitr::include_graphics('figuras/fig8.jpg')
+```
+
+---
+
+# Bibliografia básica
+
+&#10004; MONTGOMERY, Douglas C.; RUNGER, George C. **Estatística aplicada e probabilidade para engenheiros**. 4ed. Rio de Janeiro, RJ: LTC, 2009, 493 p.
+
+```{r , echo=FALSE, fig.align = 'center', out.width = '35%'}
+knitr::include_graphics('figuras/fig9.jpg')
+```
+
+---
+
+# Bibliografia complementar
+
+- MORETTIN, L.G. **Estatística básica: probabilidade e inferência**, volume único. São Paulo: Pearson Prentice Hall, 2009. 375 p.
+
+<br>
+
+- SPIEGEL, M.R.; SCHILLER, J.J.; SRINIVASAN, R.A. **Teoria e problemas de probabilidade e estatística**. 2.ed. São Paulo: McGraw-Hill, 2004. 398 p.
+
+<br>
+
+- FONSECA, J.S.; MARTINS, G.A. **Curso de estatística**. 6.ed. São Paulo: Atlas, 1996. 320 p. 
+
+---
+
+# Aulas
+
+&#10004; **Participar** da resolução dos exemplos, bem como do desenvolvimento de algum método quando for chamado.
+
+```{r , echo=FALSE, fig.align = 'center', out.width = '30%'}
+knitr::include_graphics('figuras/tarefa.jpg')
+```
+
+
+&#10004; **Questionar** quando tiver dúvidas.
+
+---
+
+# Lista de exercícios &#9997;
+
+Haverá listas de exercícios para serem resolvidas em casa. Resolver os problemas da lista de exercícios é uma forma de aprendizagem, pois é uma maneira de colocar em prática tudo que você leu e ouviu, e vai lhe fornecer um *feedback* sobre o que foi abordado em sala de aula.
+
+```{r , echo=FALSE, fig.align = 'center', out.width = '55%'}
+knitr::include_graphics('figuras/fig10.jpg')
+```
+
+<br>
+
+--
+
+&#10004; Vocês são **encorajados** a resolver problemas com os outros estudantes, compartilhar e discutir ideias.
+
+--
+
+&#10004; As respostas de cada problema devem ser **resultados de seu próprio esforço**.
+
+---
+
+# Complementação de carga horária
+
+.pull-left[
+&#10004; Quizzes sobre os conceitos teóricos e aplicações.
+
+&#10004; Leitura.
+]
+.pull-right[
+
+]
+
+<br>
+
+```{r , echo=FALSE, fig.align = 'right', out.width = '40%'}
+knitr::include_graphics('https://media.giphy.com/media/xTiQywlOn0gKyz0l56/giphy.gif')
+```
+
+---
+
+# Provas &#128221;
+
+Haverá três avaliações (**sem consulta**) que vão cobrir o conteúdo abordado em sala de aula, as listas de exercícios e as bibliografias citadas. As soluções de cada uma das provas devem estar bem **organizadas** e **justificadas**. Desta forma, você irá demonstrar sua capacidade de comunicar os seus resultados. Se a prova estiver **difícil de compreender** devido a organização e passagens não justificadas, haverá **penalidades**.
+
+Qualquer conflito com as datas das provas devem ser comunicados na **segunda semana de aula**.
+
+<br>
+
+.pull-left[
+<center>Prova 1</center>
+
+Sexta-feira, **31/03**
+]
+.pull-right[
+<center>Prova 2</center>
+
+Sexta-feira, **12/05**
+]
+
+.pull-left[
+<center>Prova 3</center>
+
+Sexta-feira, **23/06**
+]
+.pull-right[
+]
+
+---
+
+# Prova de segunda chamada 
+
+No caso do aluno perder, **por motivo de doença ou força maior**, alguma avaliação, poderá solicitar, através de requerimento, uma única segunda chamada por avaliação, desde que no prazo determinado no Regulamento da Organização Didático-Pedagógica dos Cursos da UTFPR (Art.36 - Graduação e Art.31 - Técnico)
+
+<br>
+
+.pull-left[
+<center>Prova de Segunda Chamada</center>
+
+Segunda-feira, **30/06**
+]
+.pull-right[
+
+]
+
+<br>
+
+Trabalho ou viagem a passeio **não são motivos** para segunda chamada.
+
+---
+
+# Atividades avaliativas &#128221;
+
+Haverá nove atividades avaliativas (**com consulta**) ao longo do semestre que vão cobrir o conteúdo abordado em sala de aula.
+
+<br>
+
+--
+
+Cada atividades avaliativa terá uma **nota máxima de 2,0** pontos.
+
+<br>
+
+--
+
+Para média será considerado as **seis maiores notas** das atividades.
+
+---
+
+# Cópia de provas (e/ou *internet*) e falsidade
+
+```{r , echo=FALSE, fig.align = 'center', out.width = '40%'}
+knitr::include_graphics('https://media.giphy.com/media/SRqTQmbYdm5jgS7xH9/giphy.gif
+')
+```
+
+A desonestidade em nosso trabalho acadêmico representa uma **grave violação ética**.
+
+<br>
+
+Para maiores detalhes, consulte o **regulamento disciplinar do corpo discente da UTFPR**
+
+<https://portal.utfpr.edu.br/documentos/graduacao-e-educacao-profissional/prograd/diretrizes-e-regulamentos/gestao/regulamento-disciplinar-do-corpo-discente/view>
+
+---
+
+# Não divulgar informações falsas!
+
+```{r , echo=FALSE, fig.align = 'center', out.width = '50%'}
+knitr::include_graphics('https://media.giphy.com/media/3orieNLnAxzZI9CQzm/giphy.gif?cid=ecf05e47gv1g9buos2wnbph6pwbmk45fp0luz268sanoyrru&rid=giphy.gif&ct=g')
+```
+
+**Faça questionamentos** sobre as informações a respeito dos tópicos da disciplina. 
+
+**Relembre** o que foi passado em sala de aula.
+
+---
+
+# Critério de avaliação &#128220;
+
+Resolução 122/10-COEPP/Artigo 4:
+
+&#10004; Será aprovado o aluno que obtiver média final maior ou igual a 6 $(MF\geq6)$, em que
+		$$MF=(0,9MP)+(0,5MA),$$
+em que $MP$ é a média das três avaliações e $MA$ é a média das seis maiores notas das atividades avaliativas.
+
+Para $MF$ poderá ser acrescentado um bônus por engajamento de no **máximo** 0,5 pontos a depender da decisão da turma.
+
+---
+
+&#10004; O aluno com $MF<6$ deverá fazer a prova de recuperação (**matéria toda** e **sem consulta**) no dia 07-07-2023.
+
+A média final será recalculada por 
+$$MFr=\frac{MF+NR}{2},$$ 
+em que $NR$ é a nota da prova de recuperação.
+
+
+Então, a nota final será determinada pela expressão
+
+$$NF=\min(6,MPr).$$
+Será aprovado o aluno com $NF\geq6$.
+
+---
+
+Bônus e pontos extras não serão considerados para o cálculo da média da prova de recuperação.
+
+<br>
+
+```{r , echo=FALSE, fig.align = 'center', out.width = '50%'}
+knitr::include_graphics('https://media.giphy.com/media/3o7TKwmnDgQb5jemjK/giphy.gif')
+```
+
+
+---
+
+# Espera-se do aluno 
+
+&#10004; Dedicado com a disciplina.
+
+
+&#10004; Base de matemática elementar.
+
+
+&#10004; Participativo e respeitoso com o professor e demais colegas.
+
+```{r , echo=FALSE, fig.align = 'center', out.width = '50%'}
+knitr::include_graphics('https://media.giphy.com/media/KM9Oag1SJ7PiyoWUEW/giphy.gif')
+```
+
+---
+
+# Refletir
+
+**Eu terei tempo** para me dedicar a disciplina? 
+
+**Minha base matemática do ensino médio** é suficiente a disciplina?
+
+**Aprendi e consigo aplicar os conceitos** de matemática básica?
+
+<br>
+
+```{r , echo=FALSE, fig.align = 'center', out.width = '40%'}
+knitr::include_graphics('https://media.giphy.com/media/xThtanqVawzQNeHD20/giphy.gif')
+```
+
+---
+
+# <img src="figuras/mod.jpg"  style="width:25%">
+
+&#10004; <https://moodle.utfpr.edu.br/login/index.php>
+
+<br>
+
+&#10004; Londrina - Graduação - Tecnologia em Alimentos- 3o período
+
+<br>
+
+&#10004; Disciplina: 2023 - S1 - Estatística
+
+<br>
+
+&#10004; Senha: MA23A2023S1
+
+
