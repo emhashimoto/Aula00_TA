@@ -409,7 +409,7 @@ knitr::include_graphics('https://media.giphy.com/media/3o7TKwmnDgQb5jemjK/giphy.
 &#10004; Base de matemática elementar.
 
 
-&#10004; Participativo e respeitoso com o professor e demais colegas.
+&#10004; Respeito pelo professor e demais colegas.
 
 ```{r , echo=FALSE, fig.align = 'center', out.width = '50%'}
 knitr::include_graphics('https://media.giphy.com/media/KM9Oag1SJ7PiyoWUEW/giphy.gif')
