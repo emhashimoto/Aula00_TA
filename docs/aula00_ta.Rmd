@@ -1,6 +1,6 @@
 ---
 title: "MA32A - Estatística"
-subtitle: "Apresentação da Disciplina &#9749;" 
+subtitle: "Apresentação da Disciplina &#10024;" 
 author: "Elizabeth Mie Hashimoto <br> DAMAT-LD"
 output:
   xaringan::moon_reader:
@@ -113,7 +113,7 @@ Horário de Atendimento &#9200;
 
 ---
 
-# Conteúdo Programático
+# Conteúdo Programático &#128214;
 
 &#10004; Conceitos básicos de estatística descritiva
 
@@ -159,23 +159,13 @@ df |>
 
 ---
 
-&#10004; Definição de análise e variância
+&#10004; Definição de análise de variância
 
 ---
 
-# Bibliografia básica
+# Bibliografia básica &#128218;
 
-&#10004; BUSSAB, Wilton de Oliveira; MORETTIN, Pedro Alberto. **Estatística básica**. 5ed. São Paulo: Saraiva, 2004. 526 p.
-
-```{r , echo=FALSE, fig.align = 'center', out.width = '35%'}
-knitr::include_graphics('figuras/fig8.jpg')
-```
-
----
-
-# Bibliografia básica
-
-&#10004; MONTGOMERY, Douglas C.; RUNGER, George C. **Estatística aplicada e probabilidade para engenheiros**. 4ed. Rio de Janeiro, RJ: LTC, 2009, 493 p.
+&#10004; Costa Neto, Pedro Luiz de Oliveira. **Estatística**. 2ed. São Paulo: Blucher, 2022.
 
 ```{r , echo=FALSE, fig.align = 'center', out.width = '35%'}
 knitr::include_graphics('figuras/fig9.jpg')
@@ -183,7 +173,17 @@ knitr::include_graphics('figuras/fig9.jpg')
 
 ---
 
-# Bibliografia complementar
+# Bibliografia básica &#128218;
+
+&#10004; BUSSAB, Wilton de Oliveira; MORETTIN, Pedro Alberto. **Estatística básica**. 5ed. São Paulo: Saraiva, 2004.
+
+```{r , echo=FALSE, fig.align = 'center', out.width = '35%'}
+knitr::include_graphics('figuras/fig8.jpg')
+```
+
+---
+
+# Bibliografia complementar &#128218;
 
 - MORETTIN, L.G. **Estatística básica: probabilidade e inferência**, volume único. São Paulo: Pearson Prentice Hall, 2009. 375 p.
 
@@ -197,16 +197,36 @@ knitr::include_graphics('figuras/fig9.jpg')
 
 ---
 
-# Aulas
+# Aulas &#128210;
 
 &#10004; **Participar** da resolução dos exemplos, bem como do desenvolvimento de algum método quando for chamado.
 
-```{r , echo=FALSE, fig.align = 'center', out.width = '30%'}
+```{r , eval=FALSE, echo=FALSE, fig.align = 'center', out.width = '30%'}
 knitr::include_graphics('figuras/tarefa.jpg')
 ```
 
+<br>
 
 &#10004; **Questionar** quando tiver dúvidas.
+
+```{r , echo=FALSE, fig.align = 'right', out.width = '60%'}
+knitr::include_graphics('https://media.giphy.com/media/STThOmSL9X8jpaEqfE/giphy.gif')
+```
+
+---
+
+&#10004; **Quinta-feira**: atividades avaliativas sobre o assunto da aula passada.
+
+
+&#10004; **Sexta-feira**: 
+
+- relembrando os tópicos passados;
+
+- conteúdo da aula;
+
+- aplicações;
+
+- resolução de exercícios.
 
 ---
 
@@ -214,17 +234,15 @@ knitr::include_graphics('figuras/tarefa.jpg')
 
 Haverá listas de exercícios para serem resolvidas em casa. Resolver os problemas da lista de exercícios é uma forma de aprendizagem, pois é uma maneira de colocar em prática tudo que você leu e ouviu, e vai lhe fornecer um *feedback* sobre o que foi abordado em sala de aula.
 
-```{r , echo=FALSE, fig.align = 'center', out.width = '55%'}
+```{r, eval=FALSE, echo=FALSE, fig.align = 'center', out.width = '55%'}
 knitr::include_graphics('figuras/fig10.jpg')
 ```
 
-<br>
-
---
+```{r , echo=FALSE, fig.align = 'center', out.width = '30%'}
+knitr::include_graphics('https://media.giphy.com/media/1oBwBVLGoLteCP2kyD/giphy.gif')
+```
 
 &#10004; Vocês são **encorajados** a resolver problemas com os outros estudantes, compartilhar e discutir ideias.
-
---
 
 &#10004; As respostas de cada problema devem ser **resultados de seu próprio esforço**.
 
@@ -278,7 +296,7 @@ Sexta-feira, **23/06**
 
 ---
 
-# Prova de segunda chamada 
+# Prova de segunda chamada &#128221;
 
 No caso do aluno perder, **por motivo de doença ou força maior**, alguma avaliação, poderá solicitar, através de requerimento, uma única segunda chamada por avaliação, desde que no prazo determinado no Regulamento da Organização Didático-Pedagógica dos Cursos da UTFPR (Art.36 - Graduação e Art.31 - Técnico)
 
@@ -399,21 +417,6 @@ knitr::include_graphics('https://media.giphy.com/media/KM9Oag1SJ7PiyoWUEW/giphy.
 
 ---
 
-# Refletir
-
-**Eu terei tempo** para me dedicar a disciplina? 
-
-**Minha base matemática do ensino médio** é suficiente a disciplina?
-
-**Aprendi e consigo aplicar os conceitos** de matemática básica?
-
-<br>
-
-```{r , echo=FALSE, fig.align = 'center', out.width = '40%'}
-knitr::include_graphics('https://media.giphy.com/media/xThtanqVawzQNeHD20/giphy.gif')
-```
-
----
 
 # <img src="figuras/mod.jpg"  style="width:25%">
 
@@ -421,7 +424,7 @@ knitr::include_graphics('https://media.giphy.com/media/xThtanqVawzQNeHD20/giphy.
 
 <br>
 
-&#10004; Londrina - Graduação - Tecnologia em Alimentos- 3o período
+&#10004; Londrina - Graduação - Tecnologia em Alimentos- 2o período
 
 <br>
 
@@ -429,6 +432,10 @@ knitr::include_graphics('https://media.giphy.com/media/xThtanqVawzQNeHD20/giphy.
 
 <br>
 
-&#10004; Senha: MA23A2023S1
+&#10004; Senha: MA32A2023S1
+
+```{r , echo=FALSE, fig.align = 'right', out.width = '40%'}
+knitr::include_graphics('https://media.giphy.com/media/IoP0PvbbSWGAM/giphy.gif')
+```
 
 
